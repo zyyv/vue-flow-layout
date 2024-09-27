@@ -1,0 +1,23 @@
+{
+  "name": "vue-flow-layout",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "packageManager": "pnpm@9.11.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.4.37"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^3.7.3",
+    "@vitejs/plugin-vue": "^5.1.2",
+    "eslint": "^9.11.1",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.1",
+    "vue-tsc": "^2.0.29"
+  }
+}
