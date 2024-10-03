@@ -138,7 +138,7 @@ onUnmounted(() => {
 #flow-layout {
   position: relative;
   display: block;
-  box-sizing: border-box !important;
+  box-sizing: border-box;
   overflow: unset !important;
 }
 
