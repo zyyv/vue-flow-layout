@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-import FlowLayout from './components/FlowLayout.vue'
+import FlowLayout from './components/FlowLayout'
 
 const list = ref(Array.from({ length: 10 }, (_, index) => index + 1))
 
@@ -29,8 +29,13 @@ const cols = ref(4)
 
     <div>
       <FlowLayout class="test" style="width: 80vw; margin: 0 auto;" :cols="Number(cols)">
+        <div>123</div>
+        <div>456</div>
+        <div>789</div>
         <div v-for="item in list" :key="`_${item}`">
-          {{ item }}
+          <div v-for="i in 3" :key="i">
+            {{ `${item}_${i}` }}
+          </div>
         </div>
       </FlowLayout>
     </div>
