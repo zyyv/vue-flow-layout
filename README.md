@@ -1,7 +1,3 @@
-<p align="center">
-<img src="https://raw.githubusercontent.com/zyyv/magic-color/main/public/logo.svg" style="width:100px;" />
-</p>
-
 <h1 align="center">vue-flow-layout</h1>
 
 <p align="center">🌊 The Vue waterfull layout component.</p>
