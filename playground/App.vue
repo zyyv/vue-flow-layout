@@ -48,7 +48,7 @@ const gap = computed(() => [gapX.value, gapY.value].map(Number))
       </div>
     </div>
 
-    <FlowLayout w-80vw ma :cols="Number(cols)" :gap>
+    <FlowLayout w-80vw ma :cols="Number(cols)" :gap :duration="500">
       <div v-for="item in list" :key="`_${item}`" class="card bg-gray:30 rd-md b b-gray:10 flex justify-center items-center">
         <div v-for="i in 3" :key="i">
           {{ `${item}_${i}` }},

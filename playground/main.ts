@@ -1,5 +1,5 @@
 import { createApp } from 'vue'
-import VueFlowLayout from 'vue-flow-layout'
+import VueFlowLayout from '../src/index'
 import App from './App.vue'
 import 'uno.css'
 

@@ -141,7 +141,7 @@ export default /* #__PURE__ */ defineComponent({
         boxSizing: 'border-box',
         ...props.duration
           ? {
-              duration: `all ${typeof props.duration === 'number' ? `${props.duration}ms` : '350ms'}`,
+              transition: `all ${typeof props.duration === 'number' ? `${props.duration}ms` : '350ms'}`,
             }
           : {},
       }
