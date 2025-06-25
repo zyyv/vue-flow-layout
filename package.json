@@ -1,7 +1,7 @@
 {
   "name": "vue-flow-layout",
   "type": "module",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "packageManager": "pnpm@10.12.3",
   "description": "🌊 The Vue waterfull layout component.",
   "author": "Chris <hizyyv@gmail.com>",
